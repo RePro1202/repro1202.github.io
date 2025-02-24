@@ -1,9 +1,9 @@
 ---
-title: \#define const
+title: #define const
 author: RePro
 date: 2025-02-17 10:00:00 +0900
-categories: [Blogging, Tutorial]
-tags: [favicon]
+categories: [Programming, C++]
+tags: [c++]
 ---
 
 # #define과 const의 차이: 코드 크기와 메모리 효율
