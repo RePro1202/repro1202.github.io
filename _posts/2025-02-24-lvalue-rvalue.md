@@ -2,8 +2,8 @@
 title: lvalue, rvalue 그리고 for(auto) 반복문
 author: RePro
 date: 2025-02-24 10:00:00 +0900
-categories: [Blogging, Tutorial]
-tags: [favicon]
+categories: [Programming, C++]
+tags: [c++]
 ---
 
 # C++ lvalue, rvalue 그리고 for(auto) 반복문
