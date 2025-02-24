@@ -1,9 +1,9 @@
 ---
-title: c++, c# 언어 표준이란
+title: C++ constexpr 키워드
 author: RePro
 date: 2024-08-01 10:00:00 +0900
-categories: [Blogging, Tutorial]
-tags: [favicon]
+categories: [Programming, C++]
+tags: [c++]
 ---
 
 # C++ constexpr 키워드 정리
