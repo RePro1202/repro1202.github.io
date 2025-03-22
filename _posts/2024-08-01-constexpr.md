@@ -1,5 +1,5 @@
 ---
-title: C++ constexpr 키워드
+title: "[C++] constexpr 키워드"
 author: RePro
 date: 2024-08-01 10:00:00 +0900
 categories: [Programming, C++]
@@ -14,7 +14,7 @@ tags: [c++]
 
 ## 2. 기본 개념
 
-`constexpr`은 **"컴파일 타임 상수(constant expression)"**를 의미한다. 즉, 컴파일러가 프로그램을 빌드할 때 값을 계산해서 상수로 결정하도록 보장하는 것이다.
+`constexpr`은 **"컴파일 타임 상수(constant expression)"** 를 의미한다. 즉, 컴파일러가 프로그램을 빌드할 때 값을 계산해서 상수로 결정하도록 보장하는 것이다.
 
 ```cpp
 constexpr int size = 10;  // 컴파일 시간에 '10'으로 확정
