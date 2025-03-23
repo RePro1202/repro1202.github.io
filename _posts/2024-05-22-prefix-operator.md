@@ -2,8 +2,8 @@
 title: 반복문에서 전위 후위 연산자
 author: RePro
 date: 2024-05-22 10:00:00 +0900
-categories: [Blogging, Tutorial]
-tags: [favicon]
+categories: [Programming, C++]
+tags: [c++]
 ---
 
 # C++ 전위 증가(++i)와 후위 증가(i++)의 차이점
