@@ -1,5 +1,5 @@
 ---
-title: "[C++] 바이트 패딩딩"
+title: "[C++] 바이트 패딩"
 author: RePro
 date: 2024-06-24 10:00:00 +0900
 categories: [Programming, C++]

@@ -1,9 +1,9 @@
 ---
-title: 가상 메모리
+title: "[CS] 가상 메모리"
 author: RePro
 date: 2025-01-13 10:00:00 +0900
-categories: [Blogging, Tutorial]
-tags: [favicon]
+categories: [CS]
+tags: [cs]
 ---
 
 # 스택과 힙의 메모리 주소 관계 및 실제 배치

@@ -1,9 +1,9 @@
 ---
-title: "[C++] 프로세스와 스레드"
+title: "[CS] 프로세스와 스레드"
 author: RePro
 date: 2024-09-04 11:00:00 +0900
-categories: [Programming, C++]
-tags: [c++]
+categories: [CS]
+tags: [cs]
 ---
 
 # 프로세스 vs 스레드, IPC

@@ -1,5 +1,5 @@
 ---
-title: "[수학] 순열과 조합합"
+title: "[수학] 순열과 조합"
 author: RePro
 date: 2025-01-08 10:00:00 +0900
 categories: [Programming, Math]
