@@ -97,7 +97,7 @@ Unity에서는 렌더링 파이프라인(Rendering Pipeline)을 통해 3D 그래
 | 목적 | 기본 렌더링 | 멀티플랫폼 최적화 | 고품질 그래픽 |
 | 성능 | 중간 | 높음 (최적화됨) | 낮음 (고사양 필요) |
 | 지원 플랫폼 | PC, 모바일, 콘솔 | 모바일, VR, 콘솔 | PC, 콘솔 (고사양) |
-| [렌더링 방식](./2025-03-02-Forward-Deferred-Ren.md) | Forward & Deferred | Forward (최적화됨) | Deferred (고급 그래픽) |
+| [렌더링 방식] | Forward & Deferred | Forward (최적화됨) | Deferred (고급 그래픽) |
 | 조명 시스템 | 기본 조명 | 경량 조명 (성능 최적화) | 물리 기반 조명 (고품질) |
 | 후처리(Post Processing) | 기본 제공 | 경량화된 후처리 | 고급 후처리 지원 |
 | 커스텀 셰이더 | ShaderLab 사용 | Shader Graph 사용 | Shader Graph 사용 |
