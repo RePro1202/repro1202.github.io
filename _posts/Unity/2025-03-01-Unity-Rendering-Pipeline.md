@@ -3,7 +3,7 @@ title: "[Unity] 기본 렌더링 파이프라인"
 author: RePro
 date: 2025-03-01 10:00:00 +0900
 categories: [Programming, Unity]
-tags: [unity]
+tags: [unity, graphics]
 ---
 
 # Unity 렌더링 파이프라인(Rendering Pipeline) 종류 및 차이점
