@@ -3,7 +3,7 @@ title: Forward Rendering vs. Deferred Rendering
 author: RePro
 date: 2025-03-03 10:00:00 +0900
 categories: [Programming, Graphics]
-tags: [graphics, Unity]
+tags: [graphics, unity]
 ---
 
 # Tonemapping (톤 매핑) in Unity Post Processing

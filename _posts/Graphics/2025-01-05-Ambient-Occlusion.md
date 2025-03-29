@@ -3,7 +3,7 @@ title: Ambient Occlusion (AO)
 author: RePro
 date: 2025-01-05 10:00:00 +0900
 categories: [Programming, Graphics]
-tags: [graphics]
+tags: [graphics, unity, unreal]
 ---
 
 # Ambient Occlusion (AO) 개요
