@@ -1,12 +1,12 @@
 ---
-title: Forward Rendering vs. Deferred Rendering
+title: Tonemapping (톤 매핑)
 author: RePro
 date: 2025-03-03 10:00:00 +0900
 categories: [Programming, Graphics]
 tags: [graphics, unity]
 ---
 
-# Tonemapping (톤 매핑) in Unity Post Processing
+# Tonemapping (톤 매핑)
 
 ## 1. 개요
 Tone Mapping(톤 매핑)은 HDR(High Dynamic Range) 이미지를 LDR(Low Dynamic Range)로 변환하는 과정이다. 즉, 밝기 범위가 넓은 HDR 이미지를 인간이 인식 가능한 범위(LDR)로 조정하는 기술이다.
