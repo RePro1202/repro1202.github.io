@@ -1,5 +1,5 @@
 ---
-title: #define const
+title: "[C++] #define과 const"
 author: RePro
 date: 2025-02-17 10:00:00 +0900
 categories: [Programming, C++]
@@ -33,7 +33,7 @@ const double AspectRatio = 1.653;
 double width = 10 * ASPECT_RATIO;
 double height = 5 * ASPECT_RATIO;
 ```
-➡️ **전처리 결과**
+**전처리 결과**
 ```cpp
 double width = 10 * 1.653;
 double height = 5 * 1.653;
@@ -47,7 +47,7 @@ const double AspectRatio = 1.653;
 double width = 10 * AspectRatio;
 double height = 5 * AspectRatio;
 ```
-➡️ **컴파일 최적화 결과**
+**컴파일 최적화 결과**
 - **AspectRatio는 메모리에 한 번만 저장**됨.
 - width, height 계산 시 **이 값을 참조**하거나 **컴파일러가 상수를 복사해 최적화**.
 - **코드 크기가 불필요하게 커지지 않음**.
@@ -69,7 +69,7 @@ double height = 5 * AspectRatio;
 double a = BIG_NUMBER;
 double b = BIG_NUMBER;
 ```
-➡️ 최종 기계어 코드에 `12345678.98765`라는 리터럴이 **두 번 들어감**.
+- 최종 기계어 코드에 `12345678.98765`라는 리터럴이 **두 번 들어감**.
 
 ### const 사용
 ```cpp
@@ -77,7 +77,7 @@ const double BigNumber = 12345678.98765;
 double a = BigNumber;
 double b = BigNumber;
 ```
-➡️ `BigNumber`는 **한 번만 메모리에 저장**되고 참조됨.
+- `BigNumber`는 **한 번만 메모리에 저장**되고 참조됨.
 
 ## 5. 컴파일 후 코드 크기 확인
 ### 리눅스
@@ -104,5 +104,5 @@ size const_version
 | 코드 크기            | 중복 삽입으로 인해 커질 수 있음        | 메모리 효율적으로 사용됨               |
 | 유지보수             | 타입 정보 없음, 실수 발생 가능         | 타입 안전, 가독성 및 유지보수 좋음     |
 
-✅ **따라서 상수를 정의할 때는 `#define`보다는 `const`를 사용하는 것이 권장됨**.
+ **따라서 상수를 정의할 때는 `#define`보다는 `const`를 사용하는 것이 권장됨**.
 
