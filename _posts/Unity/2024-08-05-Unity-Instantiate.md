@@ -1,5 +1,5 @@
 ---
-title: "[Unity] 이벤트 시스템"
+title: "[Unity] Instantiate"
 author: RePro
 date: 2024-08-05 10:00:00 +0900
 categories: [Programming, Unity]
