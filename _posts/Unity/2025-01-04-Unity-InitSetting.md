@@ -65,6 +65,30 @@ Png 투명도 적용법: 위에서 만든 머테리얼을 적용한(매쉬 랜�
 Application.targetFrameRate = 30;
 ```
 
+## 7. 마우스 클릭 선택
+
+```cpp
+if (Input.GetMouseButtonDown((int)MouseButton.Left))
+{
+    Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+
+    if (Physics.Raycast(ray, out RaycastHit raycastHit, float.MaxValue, unitsLayerMask))
+    {
+        if (raycastHit.transform.TryGetComponent<Unit>(out Unit unit))
+        {
+            SetSelectedUnit(unit);
+            return true;
+        }
+    }
+}
+```
+
+## 8. 객체 생성
+
+```cpp
+GameObject.Instantiate(debugPrefab, GetWorldPosition(gridPosition), Quaternion.identity);
+```
+
 
 ## UI
 
