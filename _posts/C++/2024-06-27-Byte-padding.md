@@ -3,7 +3,7 @@ title: "[C++] 바이트 패딩"
 author: RePro
 date: 2024-06-24 10:00:00 +0900
 categories: [Programming, C++]
-tags: [c++]
+tags: [c++, cs]
 ---
 
 # 바이트 패딩(Byte Padding)과 정렬(Alignment)
