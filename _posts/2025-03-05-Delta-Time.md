@@ -74,6 +74,9 @@ float timer += Time.deltaTime;
 if (timer > 2f) { DoSomething(); timer = 0f; }
 ```
 
+- `FixedUpdate`에서 `Delta Time`이 호출되면 `fixedDeltaTime`이 반환된다다
+- `Update`에서 `FixedUpdate` 호출은 `FixedUpdate`을 반환한다
+
 ---
 
 ## 5. Unreal Engine에서의 Delta Time
