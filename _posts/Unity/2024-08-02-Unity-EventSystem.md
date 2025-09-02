@@ -28,6 +28,7 @@ tags: [unity, c#]
 - `Action<T>`, `Action<T1, T2, ..., T16>` 형태로 최대 16개의 매개변수를 지원합니다.
 
 ### 사용 예
+
 ```csharp
 Action sayHello = () => Console.WriteLine("Hello");
 sayHello();  // 출력: Hello
@@ -40,6 +41,14 @@ printNumber(100);  // 출력: 100
 - 매우 간결하고 빠름
 - null 체크 후 호출 (`?.Invoke()`)
 - Unity와 궁합이 좋고 자주 사용됨
+
+### 주의
+* `Action<T>`는 이벤트처럼 쓸 수 있지만, `event` 키워드가 없으므로 외부에서 `= null`로 초기화하거나 `+=`/`-=` 없이도 덮어쓸 수 있어 **캡슐화가 약합니다**.
+* 안전하게 사용하고 싶다면 `event Action<T>` 형태로도 선언 가능:
+
+```csharp
+public event Action<DamageMessage> OnDamaged;
+```
 
 ---
 
