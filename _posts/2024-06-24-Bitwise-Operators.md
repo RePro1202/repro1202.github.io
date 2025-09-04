@@ -135,3 +135,23 @@ if (permission & FLAG_READ) {
 ```
 
 ---
+https://www.acmicpc.net/source/98077739
+
+가능한 조합 탐색
+
+```cpp
+vector<int> v;
+        v.clear();
+
+        for (int j = 0; j < n; j++)
+        {
+            if (i & (1 << j))
+            {
+                for (int t = 0; t < 5; t++)
+                {
+                    sum[t] += input[j][t];
+                }
+                v.push_back(j);
+            }
+        }
+```
